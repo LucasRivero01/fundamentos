@@ -1,5 +1,6 @@
 const fs = require('fs');
 var color = require('colors/safe');
+
 const crearArchivo = (factor = 8) => {
     return new Promise((resolve, reject) => {
         let resultado = '';
