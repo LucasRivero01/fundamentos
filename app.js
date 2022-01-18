@@ -1,7 +1,7 @@
 const { crearArchivo } = require('./calculos');
 const argv = require("process")
 const factor = process.argv
-    // valido si el valor ingresado es un numero
+    // se valida si el valor ingresado NO es numerico
 if (isNaN(factor[2])) {
     console.log('El valor ingresado no es un numero');
     process.exit(1)
